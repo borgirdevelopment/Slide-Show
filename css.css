@@ -1,0 +1,24 @@
+.slide{
+    list-style: none;
+    position: absolute;
+    left:0px;
+    top:0px;
+    display: none;
+}
+.show{
+    display: block;
+}
+#slide-show{
+    position: relative;
+    width: 640px;
+    height: 258px;
+    overflow: hidden;
+}
+.controls{
+}
+.control-panel{
+    position: absolute;
+    right: 15px;
+    bottom:15px;
+    z-index: 9999;
+}
